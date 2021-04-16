@@ -5,27 +5,86 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio Web</title>
+
+
+    <style>
+        body{
+            background-color: #3B4559
+        }
+
+        .portfolio{
+            text-align: center;           color: #FFF;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 150;
+            
+        }
+
+        .MeuNome{ 
+            color: #FFF;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 300;
+            text-align: center;
+            
+        }
+        
+        .filtro{
+            color: #FFF;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 50;
+        }
+
+        .Quem{
+            color: #FFF;
+        }
+
+        .habilidade{
+            color: #FFF;
+        }
+
+        p{
+            color: #8E9FBC;
+            text-align: justify;
+                      
+
+        }
+        
+        .link1{
+            color: #FFF;
+        }
+
+        .link2 {
+            color: #FFF;
+        }
+
+        .imagem{
+            border-radius: 100%;
+                       
+            
+        }
+
+    </style>
 </head>
 <body>
 
-    <a href= "#Quem sou eu?">Quem sou eu</a>
+    <a class="Quem" href= "#Quem sou eu?">Quem sou eu</a>
     <br>
-    <a href= "#Minhas habilidades">Minhas habilidades</a>
+    <a class="habilidade" href= "#Minhas habilidades">Minhas habilidades</a>
 
-    <h1>Portfólio</h1>
+    <h1 class="portfolio">Portfólio</h1>
     <hr>
 
-    <h3>Vinicius Passos Mossi</h3>
-    <img src="../Documentos/Vinicius/vinicius.jpeg" alt= "Foto do Vinicius Passos Mossi" width= "250px" id="Vinicius">
+    <h3 class="MeuNome">Vinicius Passos Mossi</h3>
 
-    <ul>
+    <img class="imagem" src="vinicius.jpeg" alt= "Foto do Vinicius Passos Mossi" width= "250px" id="Vinicius">
+
+    <ul class="filtro">
         <li><a id="Quem sou eu?"><h4>Quem sou eu?</h4></li>
     </ul>
 
     <p>Me chamo <u>Vinicius Passos Mossi</u>, tenho 25 anos, sou natural de Manaus- AM, mas moro em Campo Grande - MS. Vou me formar este ano em Pedagogia pela UEMS (Universidade Estadual de Mato Grosso do Sul) e estou estudando paralelamente <i>Desenvolvimento Web</i> pela <strong>Trybe.</strong></p>
 
     <br>
-    <ul>
+    <ul class="filtro">
         
         <li><a id="Minhas habilidades"><h4>Minhas habilidades</h4></li>
     
@@ -35,9 +94,9 @@
     <br>
     <hr>
    
-    <a href= "https://blog.betrybe.com/" target="_blank">Blog da Trybe</a>
+    <a class="link1" href= "https://blog.betrybe.com/" target="_blank">Blog da Trybe</a>
     <br>
-    <a href= "#Vinicius">Vinicius</a>
+    <a class="link2" href= "#Vinicius">Vinicius</a>
 
 </body>
 </html>
